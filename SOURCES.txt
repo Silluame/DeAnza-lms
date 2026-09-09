@@ -1,4 +1,4 @@
-PUBLIC EXTERNAL LEARNING LINKS USED IN THE UNOFFICIAL FICTIONAL DEMO
+PUBLIC EXTERNAL LEARNING LINKS USED IN THE LOCAL LEARNING PORTAL
 
 These are third-party public resources linked for optional study. They are not De Anza College course materials and are not bundled/copied into the website.
 
@@ -113,4 +113,4 @@ Move Forward Guitar — Intervals on Guitar (YouTube; optional instrument-specif
 https://www.youtube.com/watch?v=HFmDVGRyKk4
 
 LOCAL FICTIONAL RECORDED-CLASS MEDIA
-The MP4 files bundled under /media were generated specifically for this unofficial fictional study demo. They use synthetic narration and original slide visuals. They are not real class recordings and contain no real students or instructors.
+The MP4 files bundled under /media were generated specifically for this personal study portal using synthetic narration and original slide visuals.
