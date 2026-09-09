@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>De Anza College | Unofficial Interactive Full Semester Learning Simulation V7</title>
+  <title>De Anza College | Local Learning Portal V7</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="learning_expansion.css">
 </head>
 <body>
-  <div class="demo-strip">UNOFFICIAL FICTIONAL DE ANZA COLLEGE LMS DEMO · WEEK 3 · NOT A REAL SCHOOL RECORD, ENROLLMENT, OR CANVAS SITE</div>
+  <div class="demo-strip" aria-hidden="true"></div>
 
   <aside class="global-nav" id="globalNav">
-    <button class="school-mark" data-view="dashboard" aria-label="Demo home">DA</button>
+    <button class="school-mark" data-view="dashboard" aria-label="Home">DA</button>
     <nav class="global-links" aria-label="Global navigation">
       <button class="global-link" data-view="account"><span class="gicon">◉</span><span>Account</span></button>
       <button class="global-link active" data-view="dashboard"><span class="gicon">⌂</span><span>Dashboard</span></button>
@@ -25,14 +25,14 @@
 
   <header class="topbar">
     <button class="hamburger" id="menuBtn" aria-label="Toggle navigation">☰</button>
-    <div class="crumbs" id="crumbs"><span>De Anza College · Unofficial Demo</span><b>›</b><strong>Dashboard</strong></div>
+    <div class="crumbs" id="crumbs"><span>De Anza College</span><b>›</b><strong>Dashboard</strong></div>
     <div class="topbar-actions">
       <button class="top-icon" id="searchBtn" title="Search">⌕</button>
       <div class="notification-wrap">
         <button class="top-icon" id="notificationBtn" title="Notifications">♢<i></i></button>
         <div class="notification-panel" id="notificationPanel" aria-hidden="true"></div>
       </div>
-      <button class="profile-dot" id="topProfile" title="Demo Student"><span id="topProfileInitials">DS</span><img id="topProfileImage" alt="" hidden></button>
+      <button class="profile-dot" id="topProfile" title="Student"><span id="topProfileInitials">DS</span><img id="topProfileImage" alt="" hidden></button>
     </div>
   </header>
 
@@ -56,10 +56,6 @@
             <div class="aside-title"><h3>Coming Up</h3><button class="text-link tiny" data-view-link="calendar">View Calendar</button></div>
             <div id="upcomingList"></div>
           </section>
-          <section class="aside-section start-here">
-            <h3>Demo Notice</h3>
-            <p class="demo-copy">This local mockup uses the De Anza College name only at your request. It is not affiliated with De Anza College, FHDA, Canvas, or Instructure.</p>
-          </section>
         </aside>
       </div>
     </section>
@@ -68,14 +64,13 @@
       <div class="page-header"><div><h1>All Courses</h1><div class="hairline"></div></div></div>
       <div class="two-pane-list">
         <div class="simple-panel">
-          <div class="term-heading">Fall 2026 · Unofficial Demo</div>
+          <div class="term-heading">Fall 2026</div>
           <div id="allCourses"></div>
         </div>
         <aside class="small-side-panel">
           <h3>Courses</h3>
           <button>All Courses</button>
           <button>Past Enrollments</button>
-          <p class="demo-copy">Course names, instructors, grades, rooms, and assignments in this site are fictional.</p>
         </aside>
       </div>
     </section>
@@ -126,12 +121,12 @@
     <section class="view" id="account">
       <div class="page-header"><div><h1>Account</h1><div class="hairline"></div></div></div>
       <div class="profile-page">
-        <div class="profile-photo-shell"><div class="profile-large" id="largeProfileInitials">DS</div><img class="profile-large profile-image" id="largeProfileImage" alt="Demo profile" hidden></div>
+        <div class="profile-photo-shell"><div class="profile-large" id="largeProfileInitials">DS</div><img class="profile-large profile-image" id="largeProfileImage" alt="Profile" hidden></div>
         <div class="profile-details">
-          <h2 id="profileDisplayName">Demo Student</h2>
-          <p>Local demo profile. Changes are saved only in this browser.</p>
+          <h2 id="profileDisplayName">Student</h2>
+          <p>Profile changes are saved only in this browser.</p>
           <div class="settings-form compact-form">
-            <label>Display name<input id="studentNameInput" type="text" maxlength="60" value="Demo Student"></label>
+            <label>Display name<input id="studentNameInput" type="text" maxlength="60" value="Student"></label>
             <label>Profile image<input id="profileImageInput" type="file" accept="image/*"></label>
             <div class="form-actions"><button class="primary-btn" id="saveProfileBtn">Save Profile</button><button class="outline-btn" id="removePhotoBtn">Remove Photo</button></div>
           </div>
@@ -147,9 +142,9 @@
     <section class="view" id="help">
       <div class="page-header"><div><h1>Help</h1><div class="hairline"></div></div></div>
       <div class="help-grid">
-        <div class="help-box"><div class="help-icon">?</div><h3>Demo Guide</h3><p>Click courses, modules, and assignments to explore the mock interface.</p></div>
-        <div class="help-box"><div class="help-icon">✎</div><h3>Editable Demo</h3><p>Account and course settings are stored locally in your browser.</p></div>
-        <div class="help-box"><div class="help-icon">!</div><h3>Unofficial</h3><p>Not affiliated with De Anza College, FHDA, Canvas, or Instructure.</p></div>
+        <div class="help-box"><div class="help-icon">?</div><h3>Study Guide</h3><p>Click courses, modules, and assignments to explore your learning materials.</p></div>
+        <div class="help-box"><div class="help-icon">✎</div><h3>Local Settings</h3><p>Account and course settings are stored locally in your browser.</p></div>
+        <div class="help-box"><div class="help-icon">⌨</div><h3>Local Use</h3><p>Your notes, drafts, and settings stay in this browser.</p></div>
       </div>
     </section>
   </main>
@@ -161,10 +156,11 @@
     </section>
   </div>
 
-  <div class="toast" id="toast">Demo action only</div>
+  <div class="toast" id="toast">Action complete</div>
   <script src="script.js"></script>
   <script src="enhancements.js"></script>
   <script src="v7_data.js"></script>
   <script src="learning_expansion.js"></script>
+  <footer class="local-use-footer">Personal learning environment · Not affiliated with De Anza College, Canvas, or Zoom.</footer>
 </body>
 </html>
