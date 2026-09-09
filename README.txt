@@ -1,4 +1,4 @@
-DE ANZA COLLEGE LMS DEMO V7 — UNOFFICIAL FICTIONAL DEEP-LEARNING SEMESTER SIMULATION
+LOCAL LEARNING PORTAL V7 — DEEP-LEARNING SEMESTER ENVIRONMENT
 
 HOW TO OPEN
 1. Extract the ZIP.
@@ -19,7 +19,7 @@ V7 is designed to teach, not just imitate an LMS. External links are support mat
 - Prior Week 1–2 work stays reopenable with fictional submissions, scores, rubrics, feedback, and connected relearn links.
 - Denser graded/practice work: worksheets, labs, quizzes, checkpoints, tests, discussions, reflection journals, design work, takeoffs, writing revisions, and applied musicianship practice.
 - Quizzes/tests auto-check locally when possible.
-- Assignments save local drafts and allow local demo resubmission.
+- Assignments save local drafts and allow local resubmission.
 - Study Center keeps completed modules useful instead of turning them into dead archives.
 - Local playable fictional recorded-class excerpts with narrated slides:
   * ENGR 10 — Decision Matrix Studio
@@ -51,10 +51,10 @@ PUBLIC SUPPORT MATERIAL
 V7 links to public educational material from OpenStax, MIT OpenCourseWare, musictheory.net, OSHA, U.S. DOE Building Science Education, Autodesk Learning, Khan Academy, Purdue OWL, and selected public YouTube educators. These are optional reinforcement resources and are not copied into the project. See SOURCES.txt.
 
 RECORDED CLASS EXCERPTS
-The MP4 files in /media are locally generated fictional study recordings with synthetic narration and slide visuals. They are clearly labeled as unofficial fictional demo recordings. They are not recordings of real De Anza, Canvas, Zoom, instructors, or students.
+The MP4 files in /media are locally generated study recordings with synthetic narration and original slide visuals.
 
 LOCAL DATA
 The website stores drafts, submissions, quiz results, notes, discussion posts, profile edits, and course settings in browser localStorage where allowed. Nothing is submitted to a school or server.
 
 IMPORTANT NOTICE
-This is an UNOFFICIAL FICTIONAL DEMO for learning/simulation. It is not affiliated with De Anza College, Foothill-De Anza Community College District, Canvas/Instructure, Zoom, or any real instructor. The classmates, instructors, grades, submissions, meetings, and recordings are fictional. It is not an enrollment record, transcript, official class page, official syllabus, attendance record, or proof of participation.
+This package is a personal learning environment. It runs locally and stores browser-based activity on your device.
