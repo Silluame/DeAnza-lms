@@ -1,0 +1,4 @@
+file '/mnt/data/deanza_lms_demo_v7/media/engr_week2_decision_matrix_work/clip1.mp4'
+file '/mnt/data/deanza_lms_demo_v7/media/engr_week2_decision_matrix_work/clip2.mp4'
+file '/mnt/data/deanza_lms_demo_v7/media/engr_week2_decision_matrix_work/clip3.mp4'
+file '/mnt/data/deanza_lms_demo_v7/media/engr_week2_decision_matrix_work/clip4.mp4'

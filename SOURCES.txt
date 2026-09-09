@@ -1,0 +1,116 @@
+PUBLIC EXTERNAL LEARNING LINKS USED IN THE UNOFFICIAL FICTIONAL DEMO
+
+These are third-party public resources linked for optional study. They are not De Anza College course materials and are not bundled/copied into the website.
+
+ENGINEERING / STATICS
+OpenStax — Drawing Free-Body Diagrams
+https://openstax.org/books/university-physics-volume-1/pages/5-7-drawing-free-body-diagrams
+
+OpenStax — Conditions for Static Equilibrium
+https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium
+
+OpenStax — Torque
+https://openstax.org/books/university-physics-volume-1/pages/10-6-torque
+
+MIT OpenCourseWare — Solid Mechanics
+https://ocw.mit.edu/courses/1-050-solid-mechanics-fall-2004/
+
+Khan Academy — Forces and Free-Body Diagrams
+https://www.khanacademy.org/science/ap-college-physics-1/xf557a762645cccc5%3Aforce-and-translational-dynamics/xf557a762645cccc5%3Aforces-and-systems/v/forces-and-free-body-diagrams
+
+Jeff Hanson — Statics: Intro to Trusses, Frames, and Machines (YouTube)
+https://www.youtube.com/watch?v=qJkfTgDUpX8
+
+Jeff Hanson — Shear & Moment Diagram Example (YouTube)
+https://www.youtube.com/watch?v=AKBr1YlGpOI
+
+CONSTRUCTION / MATERIALS / DRAWINGS
+Practical Engineering — Why Concrete Needs Reinforcement (YouTube)
+https://www.youtube.com/watch?v=cZINeaDjisY
+
+GrantMaury Builds — Blueprint Basics / Reading Construction Plans (YouTube)
+https://www.youtube.com/watch?v=Zrv7VIpF7xI
+
+Kienen Koga — How to Read Construction Drawings (YouTube)
+https://www.youtube.com/watch?v=e5GVlJ_N68I
+
+OSHA — Fall Prevention Campaign
+https://www.osha.gov/stop-falls
+
+OSHA — Construction Hazard Prevention Videos
+https://www.osha.gov/vtools/construction
+
+OSHA — Fall Protection: Construction
+https://www.osha.gov/fall-protection/construction
+
+U.S. Department of Energy — Building Science Education / Energy Basics
+https://bsesc.energy.gov/energy-basics
+
+U.S. Department of Energy — Framing & Windows Learning Materials
+https://bsesc.energy.gov/energy-basics?f%5B0%5D=category%3A317
+
+U.S. Department of Energy — Roofing Learning Materials
+https://bsesc.energy.gov/energy-basics?f%5B0%5D=category%3A323
+
+U.S. Department of Energy — Concrete Foundation Walls: Damp-Proofing & Waterproofing
+https://bsesc.energy.gov/energy-basics/concrete-foundation-walls-damp-proofed-and-waterproofed
+
+U.S. Department of Energy — Types of Insulation
+https://bsesc.energy.gov/energy-basics/types-insulation
+
+U.S. Department of Energy — Plumbing: Domestic Hot Water Systems
+https://bsesc.energy.gov/training-modules/plumbing-domestic-hot-water-systems
+
+U.S. Department of Energy — HVAC Overview
+https://bsesc.energy.gov/training-modules/hvac-overview
+
+U.S. Department of Energy — Water-Managed Roof Assembly
+https://bsesc.energy.gov/energy-basics/water-managed-roof-assembly
+
+U.S. Department of Energy — Capillary Break Beneath Slab
+https://bsesc.energy.gov/energy-basics/capillary-break-beneath-slab
+
+Autodesk Learning — Calculate Direct & Indirect Costs in Estimate
+https://www.autodesk.com/learn/ondemand/course/construction-estimating/unit/61BQYcfsydoEuFeWVCykYq
+
+CALCULUS / WRITING
+Khan Academy — Derivative Definition
+https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules/cs1-derivatives-definition-and-basic-rules/cs1-derivative-definition/v/alternate-form-of-the-derivative
+
+MIT OpenCourseWare — Single Variable Calculus
+https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/
+
+Purdue OWL — The Writing Process
+https://owl.purdue.edu/owl/resources/teaching_resources/documents/the-writing-process-20250724.pdf
+
+OTHER PUBLIC VIDEO LINKS ALREADY PRESENT FROM V5
+Engineering design process video
+https://www.youtube.com/watch?v=NLkdApm4vYI
+
+Free-body diagrams / statics video
+https://www.youtube.com/watch?v=RV4knEwnlVc
+
+MUSIC THEORY / MUSICIANSHIP
+musictheory.net — Free Lessons
+https://www.musictheory.net/lessons
+
+musictheory.net — Free Exercises / Ear Training
+https://www.musictheory.net/exercises
+
+musictheory.net — Key Signatures
+https://www.musictheory.net/lessons/24
+
+musictheory.net — Generic Intervals
+https://www.musictheory.net/lessons/30
+
+musictheory.net — Introduction to Chords
+https://www.musictheory.net/lessons/40
+
+Rick Beato — Music Theory Basics (YouTube; optional second explanation)
+https://www.youtube.com/watch?v=mWpXy57-mvc
+
+Move Forward Guitar — Intervals on Guitar (YouTube; optional instrument-specific reinforcement)
+https://www.youtube.com/watch?v=HFmDVGRyKk4
+
+LOCAL FICTIONAL RECORDED-CLASS MEDIA
+The MP4 files bundled under /media were generated specifically for this unofficial fictional study demo. They use synthetic narration and original slide visuals. They are not real class recordings and contain no real students or instructors.

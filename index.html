@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>De Anza College | Unofficial Interactive Full Semester Learning Simulation V7</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="learning_expansion.css">
+</head>
+<body>
+  <div class="demo-strip">UNOFFICIAL FICTIONAL DE ANZA COLLEGE LMS DEMO · WEEK 3 · NOT A REAL SCHOOL RECORD, ENROLLMENT, OR CANVAS SITE</div>
+
+  <aside class="global-nav" id="globalNav">
+    <button class="school-mark" data-view="dashboard" aria-label="Demo home">DA</button>
+    <nav class="global-links" aria-label="Global navigation">
+      <button class="global-link" data-view="account"><span class="gicon">◉</span><span>Account</span></button>
+      <button class="global-link active" data-view="dashboard"><span class="gicon">⌂</span><span>Dashboard</span></button>
+      <button class="global-link" data-view="courses"><span class="gicon">▣</span><span>Courses</span></button>
+      <button class="global-link" data-view="calendar"><span class="gicon">▦</span><span>Calendar</span></button>
+      <button class="global-link" data-view="inbox"><span class="gicon">✉</span><span>Inbox</span><b class="nav-count">3</b></button>
+      <button class="global-link" data-view="history"><span class="gicon">↺</span><span>History</span></button>
+      <button class="global-link" data-view="help"><span class="gicon">?</span><span>Help</span></button>
+    </nav>
+  </aside>
+
+  <header class="topbar">
+    <button class="hamburger" id="menuBtn" aria-label="Toggle navigation">☰</button>
+    <div class="crumbs" id="crumbs"><span>De Anza College · Unofficial Demo</span><b>›</b><strong>Dashboard</strong></div>
+    <div class="topbar-actions">
+      <button class="top-icon" id="searchBtn" title="Search">⌕</button>
+      <div class="notification-wrap">
+        <button class="top-icon" id="notificationBtn" title="Notifications">♢<i></i></button>
+        <div class="notification-panel" id="notificationPanel" aria-hidden="true"></div>
+      </div>
+      <button class="profile-dot" id="topProfile" title="Demo Student"><span id="topProfileInitials">DS</span><img id="topProfileImage" alt="" hidden></button>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="view active-view" id="dashboard">
+      <div class="page-header dashboard-header">
+        <div><h1>Dashboard</h1><div class="hairline"></div></div>
+        <button class="outline-btn" id="dashboardOptions">⋮</button>
+      </div>
+      <div class="dashboard-layout">
+        <div>
+          <div class="dashboard-subhead"><h2 id="publishedCount">Published Courses</h2><button class="text-link" data-view-link="courses">All Courses</button></div>
+          <div class="card-grid" id="courseGrid"></div>
+        </div>
+        <aside class="dashboard-aside">
+          <section class="aside-section">
+            <div class="aside-title"><h3>To Do</h3><button class="text-link tiny" id="viewAllTodos">View All</button></div>
+            <div id="todoList"></div>
+          </section>
+          <section class="aside-section coming-up">
+            <div class="aside-title"><h3>Coming Up</h3><button class="text-link tiny" data-view-link="calendar">View Calendar</button></div>
+            <div id="upcomingList"></div>
+          </section>
+          <section class="aside-section start-here">
+            <h3>Demo Notice</h3>
+            <p class="demo-copy">This local mockup uses the De Anza College name only at your request. It is not affiliated with De Anza College, FHDA, Canvas, or Instructure.</p>
+          </section>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view" id="courses">
+      <div class="page-header"><div><h1>All Courses</h1><div class="hairline"></div></div></div>
+      <div class="two-pane-list">
+        <div class="simple-panel">
+          <div class="term-heading">Fall 2026 · Unofficial Demo</div>
+          <div id="allCourses"></div>
+        </div>
+        <aside class="small-side-panel">
+          <h3>Courses</h3>
+          <button>All Courses</button>
+          <button>Past Enrollments</button>
+          <p class="demo-copy">Course names, instructors, grades, rooms, and assignments in this site are fictional.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="view course-view" id="courseDetail">
+      <div class="course-shell">
+        <aside class="course-nav" id="courseNav">
+          <button class="course-home-link active" data-course-tab="home">Home</button>
+          <button data-course-tab="zoom">Zoom</button>
+          <button data-course-tab="announcements">Announcements</button>
+          <button data-course-tab="assignments">Assignments</button>
+          <button data-course-tab="discussions">Discussions</button>
+          <button data-course-tab="grades">Grades</button>
+          <button data-course-tab="people">People</button>
+          <button data-course-tab="pages">Pages</button>
+          <button data-course-tab="files">Files</button>
+          <button data-course-tab="syllabus">Syllabus</button>
+          <button data-course-tab="modules">Modules</button>
+          <button data-course-tab="settings">Settings</button>
+        </aside>
+        <div class="course-main">
+          <div class="course-page-heading">
+            <button class="mobile-course-nav" id="courseNavBtn">☰</button>
+            <div><div class="course-breadcrumb" id="courseBreadcrumb">Course</div><h1 id="courseHeading">Course Home</h1></div>
+          </div>
+          <div id="courseContent"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="calendar">
+      <div class="page-header calendar-title-row">
+        <div><h1>Calendar</h1><div class="hairline"></div></div>
+        <div class="calendar-controls"><button class="outline-btn">‹</button><button class="outline-btn today-button">Today</button><button class="outline-btn">›</button></div>
+      </div>
+      <div class="calendar-layout">
+        <div class="calendar-card" id="calendarGrid"></div>
+        <aside class="calendar-sidebar" id="calendarSidebar"></aside>
+      </div>
+    </section>
+
+    <section class="view" id="inbox">
+      <div class="page-header inbox-title"><div><h1>Inbox</h1><div class="hairline"></div></div><button class="primary-btn">Compose</button></div>
+      <div class="inbox-toolbar"><button class="outline-btn">All Courses ▾</button><button class="outline-btn">Inbox ▾</button><div class="toolbar-spacer"></div><button class="outline-btn">↻</button></div>
+      <div class="inbox-table" id="inboxList"></div>
+    </section>
+
+    <section class="view" id="account">
+      <div class="page-header"><div><h1>Account</h1><div class="hairline"></div></div></div>
+      <div class="profile-page">
+        <div class="profile-photo-shell"><div class="profile-large" id="largeProfileInitials">DS</div><img class="profile-large profile-image" id="largeProfileImage" alt="Demo profile" hidden></div>
+        <div class="profile-details">
+          <h2 id="profileDisplayName">Demo Student</h2>
+          <p>Local demo profile. Changes are saved only in this browser.</p>
+          <div class="settings-form compact-form">
+            <label>Display name<input id="studentNameInput" type="text" maxlength="60" value="Demo Student"></label>
+            <label>Profile image<input id="profileImageInput" type="file" accept="image/*"></label>
+            <div class="form-actions"><button class="primary-btn" id="saveProfileBtn">Save Profile</button><button class="outline-btn" id="removePhotoBtn">Remove Photo</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="history">
+      <div class="page-header"><div><h1>Recent History</h1><div class="hairline"></div></div></div>
+      <div class="simple-panel history-list" id="historyList"></div>
+    </section>
+
+    <section class="view" id="help">
+      <div class="page-header"><div><h1>Help</h1><div class="hairline"></div></div></div>
+      <div class="help-grid">
+        <div class="help-box"><div class="help-icon">?</div><h3>Demo Guide</h3><p>Click courses, modules, and assignments to explore the mock interface.</p></div>
+        <div class="help-box"><div class="help-icon">✎</div><h3>Editable Demo</h3><p>Account and course settings are stored locally in your browser.</p></div>
+        <div class="help-box"><div class="help-icon">!</div><h3>Unofficial</h3><p>Not affiliated with De Anza College, FHDA, Canvas, or Instructure.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="assignmentModal" hidden>
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="assignmentModalTitle">
+      <button class="modal-close" id="closeAssignmentModal" aria-label="Close">×</button>
+      <div id="assignmentModalBody"></div>
+    </section>
+  </div>
+
+  <div class="toast" id="toast">Demo action only</div>
+  <script src="script.js"></script>
+  <script src="enhancements.js"></script>
+  <script src="v7_data.js"></script>
+  <script src="learning_expansion.js"></script>
+</body>
+</html>

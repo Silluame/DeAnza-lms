@@ -1,0 +1,4 @@
+file '/mnt/data/deanza_lms_demo_v7/media/const_week2_concrete_takeoff_work/clip1.mp4'
+file '/mnt/data/deanza_lms_demo_v7/media/const_week2_concrete_takeoff_work/clip2.mp4'
+file '/mnt/data/deanza_lms_demo_v7/media/const_week2_concrete_takeoff_work/clip3.mp4'
+file '/mnt/data/deanza_lms_demo_v7/media/const_week2_concrete_takeoff_work/clip4.mp4'
