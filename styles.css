@@ -12,7 +12,7 @@
   --hover:#f5f7f8;
   --panel:#fff;
   --shadow:0 1px 4px rgba(45,59,69,.22);
-  --strip:22px;
+  --strip:0px;
   --rail-w:84px;
   --top-h:64px;
 }
@@ -22,7 +22,7 @@ button,input{font:inherit}
 button{color:inherit}
 a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
-.demo-strip{position:fixed;z-index:100;top:0;left:0;right:0;height:var(--strip);display:flex;align-items:center;justify-content:center;background:#fff5d8;border-bottom:1px solid #e8d59c;color:#6b5619;font-size:10px;font-weight:900;letter-spacing:.07em}
+.demo-strip{display:none!important}
 .global-nav{position:fixed;z-index:60;top:var(--strip);bottom:0;left:0;width:var(--rail-w);background:var(--rail);color:#fff;box-shadow:1px 0 3px rgba(0,0,0,.2);overflow-y:auto}
 .school-mark{width:100%;height:72px;border:0;background:var(--accent);color:#fff;font-size:25px;font-weight:900;cursor:pointer;letter-spacing:-.06em}
 .global-links{display:flex;flex-direction:column}
@@ -62,7 +62,7 @@ a:hover{text-decoration:underline}
 /* V3 additions: interactive fictional De Anza-named demo */
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
 .demo-strip{height:28px;--strip:28px;font-size:9px;padding:0 10px;text-align:center}
-:root{--strip:28px}
+:root{--strip:0px}
 .school-mark{letter-spacing:-.04em;font-size:22px;background:#2f6f55}
 .card-schedule{font-size:11px;font-weight:700;color:#45545d;margin-top:7px}
 .demo-copy{font-size:10px!important;line-height:1.5!important;color:#768188!important;margin:6px 0!important}
@@ -127,3 +127,6 @@ body{--surface:#f7f8f9;--success:#2f6f55;--warn:#b78019}.demo-copy,.muted{color:
 .fake-meeting{position:relative}
 .meeting-controls{position:relative;z-index:5;background:#1f2328}
 .meeting-chat{z-index:4}
+
+.local-use-footer{margin-left:var(--rail-w);padding:10px 20px 14px;text-align:center;font-size:9px;color:#9aa3a8;background:#fff}
+@media(max-width:900px){.local-use-footer{margin-left:0}}
