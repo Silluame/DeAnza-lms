@@ -2,6 +2,10 @@ PUBLIC EXTERNAL LEARNING LINKS USED IN THE LOCAL LEARNING PORTAL
 
 These are third-party public resources linked for optional study. They are not De Anza College course materials and are not bundled/copied into the website.
 
+ENGR 10 — ZOOM / RECORDED-CLASS PLAYLIST
+User-selected public YouTube playlist embedded in the ENGR 10 Zoom area for Weeks 4–18:
+https://youtube.com/playlist?list=PL-MQNpO8Wb7BMDAVrbIM9kS-yEfyp52Mz
+
 ENGINEERING / STATICS
 OpenStax — Drawing Free-Body Diagrams
 https://openstax.org/books/university-physics-volume-1/pages/5-7-drawing-free-body-diagrams
@@ -112,5 +116,5 @@ https://www.youtube.com/watch?v=mWpXy57-mvc
 Move Forward Guitar — Intervals on Guitar (YouTube; optional instrument-specific reinforcement)
 https://www.youtube.com/watch?v=HFmDVGRyKk4
 
-LOCAL FICTIONAL RECORDED-CLASS MEDIA
+LOCAL RECORDED-CLASS MEDIA
 The MP4 files bundled under /media were generated specifically for this personal study portal using synthetic narration and original slide visuals.
