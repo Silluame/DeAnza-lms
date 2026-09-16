@@ -1,60 +1,66 @@
-LOCAL LEARNING PORTAL V7 — DEEP-LEARNING SEMESTER ENVIRONMENT
+LOCAL LEARNING PORTAL V8 — FULL FALL 2026 STUDY ENVIRONMENT
 
-HOW TO OPEN
-1. Extract the ZIP.
-2. Open index.html in Chrome, Edge, or Firefox.
-3. Recommended first path:
-   - MUSI 3A > Modules > Week 1 and work forward
-   - ENGR 10 > Modules > Week 1 and revisit completed work
-   - CONST 20 > Modules > Week 1 and use the takeoff tools
-   - Any course > Study Center to relearn older material
+LIVE SITE
+https://silluame.github.io/DeAnza-lms/
 
-WHAT V7 CHANGES
-V7 is designed to teach, not just imitate an LMS. External links are support material; the main instruction lives inside the demo.
+SEMESTER COVERAGE
+The portal now runs from the original Weeks 1–3 material through a complete Fall sequence ending December 20, 2026, plus an optional Winter Extension from December 21–27.
 
-- Six fictional active Week-3 courses, including the new MUSI 3A Comprehensive Musicianship course.
-- ENGR 10 keeps the requested Tuesday 6:00–8:30 PM online meeting rhythm.
-- CONST 20 remains a construction-focused hybrid course.
-- Every major course now has multi-part original lectures with learning objectives, instructor-style explanations, examples, pause-and-try prompts, common mistakes, terminology, recaps, and knowledge checks.
-- Prior Week 1–2 work stays reopenable with fictional submissions, scores, rubrics, feedback, and connected relearn links.
-- Denser graded/practice work: worksheets, labs, quizzes, checkpoints, tests, discussions, reflection journals, design work, takeoffs, writing revisions, and applied musicianship practice.
-- Quizzes/tests auto-check locally when possible.
-- Assignments save local drafts and allow local resubmission.
-- Study Center keeps completed modules useful instead of turning them into dead archives.
-- Local playable fictional recorded-class excerpts with narrated slides:
-  * ENGR 10 — Decision Matrix Studio
-  * CONST 20 — Concrete Takeoff Walkthrough
-  * MUSI 3A — Intervals to Triads Musicianship Lab
-- Fictional Zoom-style live-class simulations remain available separately from the recorded excerpts.
+ACTIVE COURSES
+- ENGR 10 — Introduction to Engineering
+- MATH 1A — Calculus
+- PHYS 4A — Physics
+- EWRT 1A — College Writing
+- CONST 20 — Construction Methods & Materials
+- MUSI 3A — Comprehensive Musicianship
 
-NEW MUSI 3A — COMPREHENSIVE MUSICIANSHIP
-The course is built as a real learning sequence rather than a link collection:
-- Week 1: staff, pitch, note values, meter, pulse, subdivision, counting
-- Week 2: major scales, key signatures, scale degrees, intervals, fretboard/keyboard mapping
-- Week 3: triads, chord quality, diatonic harmony, Roman numerals, tonic/dominant function, ear training
-- Practice tools for keyboard/note mapping, metronome work, interval training, and chord work
-- Theory assignments, rhythm labs, ear-training journals, quizzes, discussions, and a unit test
-- Guitar-oriented application connects written theory to movable patterns, chord functions, and transposition
-- Week 4 preview: inversions, cadences, and voice leading
+V8 FULL-SEMESTER EXPANSION
+Weeks 4–18 add approximately:
+- 90 weekly course modules across the six courses
+- 180 built-in lecture/studio lessons
+- 180 weekly problem sets/workshops and quizzes
+- 42 discussions
+- 18 major project milestones
+- 12 unit exams
+- 6 comprehensive finals
+- 90 weekly overview/study-plan pages
+- ENGR 10 Tuesday Zoom/recorded-class entries for every remaining week
 
-TEACHING DESIGN
-A typical V7 learning path is:
-1. Read the built-in lecture.
-2. Stop at “pause and try” prompts before reading further.
-3. Work the example or interactive practice.
-4. Complete the connected assignment/quiz.
-5. Review fictional feedback or auto-check feedback.
-6. Use the relearn button to return directly to the connected lecture if needed.
-7. Open an outside resource only when you want another explanation or extra practice.
+COLLEGE-STYLE WORKFLOW
+A typical week includes:
+1. Week overview and workload plan
+2. Core lecture with objectives, explanation, examples, terminology, recap, and checks
+3. Applied studio / workshop
+4. Multi-part homework, lab, writing workshop, analysis set, or musicianship practice
+5. Timed or self-checking quiz
+6. Discussion in alternating weeks
+7. Larger milestones in Weeks 6, 10, and 16
+8. Unit exams in Weeks 8 and 13
+9. Comprehensive final work in Week 17
+10. Optional bridge/portfolio work in Week 18
 
-PUBLIC SUPPORT MATERIAL
-V7 links to public educational material from OpenStax, MIT OpenCourseWare, musictheory.net, OSHA, U.S. DOE Building Science Education, Autodesk Learning, Khan Academy, Purdue OWL, and selected public YouTube educators. These are optional reinforcement resources and are not copied into the project. See SOURCES.txt.
+ENGR 10 ZOOM / RECORDING LIBRARY
+ENGR 10 keeps the Tuesday 6:00–8:30 PM meeting rhythm. The Zoom area now embeds the user-selected public YouTube playlist as the semester recording library:
+https://youtube.com/playlist?list=PL-MQNpO8Wb7BMDAVrbIM9kS-yEfyp52Mz
 
-RECORDED CLASS EXCERPTS
-The MP4 files in /media are locally generated study recordings with synthetic narration and original slide visuals.
+Each Zoom entry includes the week topic, agenda, suggested viewing workflow, playlist embed, and browser-saved class notes.
 
-LOCAL DATA
-The website stores drafts, submissions, quiz results, notes, discussion posts, profile edits, and course settings in browser localStorage where allowed. Nothing is submitted to a school or server.
+LATE-SEMESTER HIGHLIGHTS
+ENGR 10: trusses, shear/moment, stress/strain, surveying, grading/drainage, transportation, hydrology, geotechnical foundations, sustainability, cost/schedule, drawings, and capstone design.
+MATH 1A: derivative applications through definite integrals, FTC, substitution, area/volume, differential equations, exponential/logarithmic models, review, and final.
+PHYS 4A: energy, momentum, rotation, equilibrium, gravitation, SHM, waves, fluids, data modeling, synthesis project, and final.
+EWRT 1A: research questions, source evaluation, synthesis, rhetorical analysis, research drafting, citations, counterargument, revision, public-facing adaptation, final paper, and portfolio.
+CONST 20: advanced framing, steel/masonry, envelope, MEP, estimating, scheduling, QC/safety, site logistics, codes/accessibility, sustainability, closeout, preconstruction package, and final practical.
+MUSI 3A: inversions, seventh chords, minor harmony, function, secondary dominants, non-chord tones, harmonization, rhythm, dictation, form, arrangement, musicianship review, and final.
+
+LEARNING FEATURES
+- Browser-saved drafts, submissions, quiz attempts, notes, discussion posts, and settings
+- Reopenable prior work and feedback
+- Study Center / relearn paths
+- Interactive practice tools and calculators
+- Calendar, inbox, announcements, grades, files, people, syllabus, and modules
+- Local MP4 study recordings from V7 remain available
+- Public educational resources are reinforcement only; the built-in lessons remain the main learning sequence
 
 IMPORTANT NOTICE
-This package is a personal learning environment. It runs locally and stores browser-based activity on your device.
+This is a personal learning environment and study simulation. It is not affiliated with De Anza College, FHDA, Canvas/Instructure, Zoom, or YouTube, and it is not proof of enrollment, attendance, grades, or course participation.
