@@ -8,6 +8,7 @@ on:
 permissions:
   contents: write
 
+# Retry after verifying the staged semester payload chunks.
 jobs:
   build:
     runs-on: ubuntu-latest
